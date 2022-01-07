@@ -1,0 +1,27 @@
+line 1: 35 + 4 - 6 / 2 + (42 / 7)
+35 Num
++ Symbol
+4 Num
+- Symbol
+6 Num
+/ Symbol
+2 Num
++ Symbol
+( Symbol
+42 Num
+/ Symbol
+7 Num
+) Symbol
+line 2: 
++: Symbol
+  +: Symbol
+    35: Num
+    -: Symbol
+      4: Num
+      /: Symbol
+        6: Num
+        2: Num
+  /: Symbol
+    42: Num
+    7: Num
+Output: 42

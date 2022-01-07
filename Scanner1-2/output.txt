@@ -1,0 +1,39 @@
+line 1: ifdog23 + thencat35 := frog := 24	
+ifdog23 identifier
++ Symbol
+thencat35 identifier
+:= Symbol
+frog identifier
+:= Symbol
+24 Num
+line 2: 232323^tytyt ered^3434
+232323 Num
+^tytyt error
+ered identifier
+^3434 error
+line 3: while 2434 = reder; skip;
+while Keyword
+2434 Num
+= error
+reder identifier
+; Symbol
+skip Keyword
+; Symbol
+line 4: ereere2344while do this ;*
+ereere2344while identifier
+do Keyword
+this identifier
+; Symbol
+* Symbol
+line 5: fgfgfg: rriri + fkfk := iiio9::
+fgfgfg identifier
+: error
+rriri identifier
++ Symbol
+fkfk identifier
+:= Symbol
+iiio9 identifier
+:: error
+line 6: nhyh777:09kk+
+nhyh777 identifier
+:09kk+ error

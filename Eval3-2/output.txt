@@ -1,0 +1,102 @@
+line 1: z := 12;
+z identifier
+:= Symbol
+12 Num
+; Symbol
+line 2: y := 4;
+y identifier
+:= Symbol
+4 Num
+; Symbol
+line 3: z := 13;
+z identifier
+:= Symbol
+13 Num
+; Symbol
+line 4: x := 6;
+x identifier
+:= Symbol
+6 Num
+; Symbol
+line 5: 
+line 6: if y + x then 
+if Keyword
+y identifier
++ Symbol
+x identifier
+then Keyword
+line 7: y := 24 
+y identifier
+:= Symbol
+24 Num
+line 8: else y := 45 
+else Keyword
+y identifier
+:= Symbol
+45 Num
+line 9: endif;
+endif Keyword
+; Symbol
+line 10: x := 56;
+x identifier
+:= Symbol
+56 Num
+; Symbol
+line 11: while x-y do
+while Keyword
+x identifier
+- Symbol
+y identifier
+do Keyword
+line 12: x := x - 1
+x identifier
+:= Symbol
+x identifier
+- Symbol
+1 Num
+line 13: endwhile
+endwhile Keyword
+;: Symbol
+  ;: Symbol
+    ;: Symbol
+      ;: Symbol
+        ;: Symbol
+          ;: Symbol
+            :=: Symbol
+              z: identifier
+              12: Num
+            :=: Symbol
+              y: identifier
+              4: Num
+          :=: Symbol
+            z: identifier
+            13: Num
+        :=: Symbol
+          x: identifier
+          6: Num
+      if: Keyword
+        +: Symbol
+          y: identifier
+          x: identifier
+        :=: Symbol
+          y: identifier
+          24: Num
+        :=: Symbol
+          y: identifier
+          45: Num
+    :=: Symbol
+      x: identifier
+      56: Num
+  while: Keyword
+    -: Symbol
+      x: identifier
+      y: identifier
+    :=: Symbol
+      x: identifier
+      -: Symbol
+        x: identifier
+        1: Num
+Output: 
+x := 24
+y := 24
+z := 13

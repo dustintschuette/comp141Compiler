@@ -1,0 +1,35 @@
+line 1: x2 + 5 - 2
+x2 identifier
++ Symbol
+5 Num
+- Symbol
+2 Num
+line 2:  * y * 6 + 5 - (6 + 5) 98
+* Symbol
+y identifier
+* Symbol
+6 Num
++ Symbol
+5 Num
+- Symbol
+( Symbol
+6 Num
++ Symbol
+5 Num
+) Symbol
+98 Num
++: Symbol
+  +: Symbol
+    x2: identifier
+    -: Symbol
+      5: Num
+      *: Symbol
+        *: Symbol
+          2: Num
+          y: identifier
+        6: Num
+  -: Symbol
+    5: Num
+    +: Symbol
+      6: Num
+      5: Num

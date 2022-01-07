@@ -1,0 +1,13 @@
+z := 12;
+y := 4;
+z := 13;
+x := 6;
+
+if y + x then 
+y := 24 
+else y := 45 
+endif;
+x := 56;
+while x-y do
+x := x - 1
+endwhile
